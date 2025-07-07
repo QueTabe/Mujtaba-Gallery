@@ -1,0 +1,78 @@
+header {
+  background: linear-gradient(135deg, var(--primary), var(--secondary)), 
+              url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
+  /* agar gradasi overlay gambar tetap terlihat */
+  background-blend-mode: overlay;
+}
+
+nav {
+  background-color: goldenrod;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  box-shadow: 5rem;
+
+}
+
+nav ul {
+display: flex;
+align-items: center;
+gap: 2rem;
+list-style: none;
+
+}
+
+nav div img {
+max-width: 50px;
+
+}
+
+nav ul li a {
+text-decoration: none;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(255, 255, 255);
+font-weight: 600;
+padding: 8px 0;
+transition: all;
+transition-duration: 300ms;
+border-bottom: 1px solid rgba(165, 42, 42, 0);
+
+}
+
+nav ul li a:hover {
+  border-bottom: 1px solid wheat;
+}
+
+.menu-icon {
+
+  font-size: 28px;
+  display: none;
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  nav {
+    flex-wrap: wrap;
+
+  }
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu-icon {
+    display: flex;
+    align-items: center;
+  }
+
+}
