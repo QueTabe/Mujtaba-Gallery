@@ -18,7 +18,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
-  box-shadow: 5rem;
+  
 
 }
 
@@ -76,3 +76,22 @@ nav ul li a:hover {
   }
 
 }
+
+#link {
+
+text-decoration: none;
+color: rgb(239, 2, 105);
+
+
+}
+
+.gal:hover {
+  color: brown;
+  transform: scale(1.1);
+  border: 15px;
+  padding: 10px;
+  
+  transition: all .3s ease-in-out
+    
+}
+

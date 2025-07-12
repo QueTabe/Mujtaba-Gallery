@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Galeri Foto Kelas</title>
+  <link rel="icon" href="LOGO KELAS.png" type="x-icon">
+  <title>Galeri - Mujtaba</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet" />
   <style>
@@ -84,6 +85,9 @@
 
     .photo-card:hover {
       transform: scale(1.03);
+      color: #000000;
+      background-color: #e9c39e;
+      transition: all .4s ease-in-out;
     }
 
     .photo-card img {
@@ -91,6 +95,7 @@
       height: auto;
       display: block;
     }
+
 
     .caption {
       padding: 12px;
@@ -176,6 +181,13 @@
 
     .nav-button:hover {
       background: var(--secondary);
+      color: brown;
+    }
+
+    .icon-brand :hover{
+      transform: scale(1.3);
+      transition: all .5s ease-in-out;
+
     }
   </style>
 
@@ -194,23 +206,25 @@
   <div class="overlay"></div>
 
 <nav>
-  <div class="">
+  <div class="icon-brand">
     <img src="LOGO KELAS.png" alt="LOGO KELAS" />
   </div>
     <div class="menu-icon">
   <i class="ph ph-list"></i>
   </div>
+  <div class="nav-text">
   <ul>
-    <li>
+    <li class="gal">
       <a href="#">Gallery</a>
     </li>
-    <li>
-      <a href="#">Gallery</a>
+    <li class="per">
+      <a href="#">Perkembangan</a>
     </li>
-    <li>
-      <a href="#">Gallery</a>
+    <li class="ad">
+      <a href="#">Admin</a>
     </li>
   </ul>
+  </div>
   
 
 </nav>
@@ -221,126 +235,176 @@
     <div class="photo-card" onclick="openModal(0)">
       <img src="" alt="Foto 1" />
       <div class="caption">A. Fahrur Rozi </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/fahru.r_/">@fahru.r_</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/fahru.r_/">@fahru.r_</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(1)">
       <img src="" alt="Foto 2" />
       <div class="caption">A. Nur Rohman </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/nurohman28_08/">@nurohman28_08</a></div>
+      <div class="instagram">Instagram: <a id="link" href="https://www.instagram.com/nurohman28_08/">@nurohman28_08</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(2)">
       <img src="5.JPG" alt="Foto 3" />
       <div class="caption">A. Misbahul Fariqi </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/que_tabe/">@que_tabe</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/que_tabe/">@que_tabe</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(3)">
       <img src="" alt="Foto 4" />
       <div class="caption">Agus Setiawan </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/que_tabe/">@que_tabe</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/que_tabe/">@que_tabe</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(4)">
       <img src="images/foto5.jpg" alt="Foto 5" />
       <div class="caption">Bahtiar Ibnu Muhson </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/bhtribn80/">@bhtribn80</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/bhtribn80/">@bhtribn80</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(5)">
       <img src="images/foto6.jpg" alt="Foto 6" />
       <div class="caption">Dimas Muhammad Fauza Robit A.F. </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/fauza_robith26/">@fauza_robith26</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/fauza_robith26/">@fauza_robith26</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(0)">
       <img src="images/foto1.jpg" alt="Foto 1" />
       <div class="caption">Fatih Fais A. </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/faissssssssss__/">@faissssssssss__</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/faissssssssss__/">@faissssssssss__</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(1)">
       <img src="images/foto2.jpg" alt="Foto 2" />
       <div class="caption">Hilmi Cahya Fuadi </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/realmiesukses/">@realmiesukses</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/realmiesukses/">@realmiesukses</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(2)">
       <img src="images/foto3.jpg" alt="Foto 3" />
       <div class="caption">M. Kholilurrohman </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/liell.freudenberg/">@liell.freudenberg</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/liell.freudenberg/">@liell.freudenberg</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(3)">
       <img src="images/foto4.jpg" alt="Foto 4" />
       <div class="caption">M. Albait Zubaidi </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/m.albait_24/">@m.albait_24</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/m.albait_24/">@m.albait_24</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(4)">
       <img src="images/foto5.jpg" alt="Foto 5" />
       <div class="caption">M. Ilham Sya’bani </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/illsyaaaa_/">@illsyaaaa_</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/illsyaaaa_/">@illsyaaaa_</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(5)">
       <img src="images/foto6.jpg" alt="Foto 6" />
       <div class="caption">M. Nizar Zulmi </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/zlminizar/">@zlminizar</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/zlminizar/">@zlminizar</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(0)">
       <img src="images/foto1.jpg" alt="Foto 1" />
       <div class="caption">M. Mutawakkil A. </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/kafhi_al/">@kafhi_al</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/kafhi_al/">@kafhi_al</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(1)">
       <img src="images/foto2.jpg" alt="Foto 2" />
       <div class="caption">M. Saudia Abdurrohman </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/bedur_rohman/">@bedur_rohman</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/bedur_rohman/">@bedur_rohman</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(2)">
       <img src="images/foto3.jpg" alt="Foto 3" />
       <div class="caption">M. Riyan Ahsinurrizqon </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/ahmad_bayem/">@ahmad_bayem</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/ahmad_bayem/">@ahmad_bayem</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(3)">
       <img src="images/foto4.jpg" alt="Foto 4" />
       <div class="caption">M. Zam-zam Habibi </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/moeham_dzamzam/">@moeham_dzamzam</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/moeham_dzamzam/">@moeham_dzamzam</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(4)">
       <img src="images/foto5.jpg" alt="Foto 5" />
       <div class="caption">M. Adib Mabruri </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/_adib22_/">@_adib22_</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/_adib22_/">@_adib22_</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(5)">
       <img src="images/foto6.jpg" alt="Foto 6" />
       <div class="caption">M. Ridwan Ma'ruf</div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/rdwnblack/">@rdwnblack</a></div>
-    </div><div class="photo-card" onclick="openModal(0)">
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/rdwnblack/">@rdwnblack</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
+    </div>
+
+    <div class="photo-card" onclick="openModal(0)">
       <img src="images/foto1.jpg" alt="Foto 1" />
       <div class="caption">M. Zainul Mudzakir </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/zey.znt/">@zey.znt</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/zey.znt/">@zey.znt</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(1)">
       <img src="images/foto2.jpg" alt="Foto 2" />
       <div class="caption">M. Al - Muttaqi S. </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/que_tabe/">@que_tabe</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/que_tabe/">@que_tabe</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(2)">
       <img src="images/foto3.jpg" alt="Foto 3" />
       <div class="caption">Nahar Mashuri </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/naharbagong/">@naharbagong</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/naharbagong/">@naharbagong</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(3)">
       <img src="images/foto4.jpg" alt="Foto 4" />
       <div class="caption">Faza Azka Qolbi </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/que_tabe/">@que_tabe</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/que_tabe/">@que_tabe</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(4)">
       <img src="images/foto5.jpg" alt="Foto 5" />
       <div class="caption">Syifaul Hariri </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/hrrrr.i/">@hrrrr.i</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/hrrrr.i/">@hrrrr.i</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(5)">
       <img src="images/foto6.jpg" alt="Foto 6" />
       <div class="caption">M. Fahmil ‘Ulumuddin </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/xmil1_5/">@xmil1_5</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/xmil1_5/">@xmil1_5</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
+
     <div class="photo-card" onclick="openModal(5)">
       <img src="images/foto6.jpg" alt="Foto 6" />
       <div class="caption">Zuhad Sya’roni  </div>
-      <div class="instagram">Intagram : <a href="https://www.instagram.com/zuhad_syaroni/">@zuhad_syaroni</a></div>
+      <div class="instagram">Instagram : <a id="link" href="https://www.instagram.com/zuhad_syaroni/">@zuhad_syaroni</a></div>
+      <div class="quotes">"Aku Tak Peduli"</div>
     </div>
   </div>
 
@@ -352,6 +416,11 @@
       <button class="nav-button" onclick="prevPhoto()">&laquo; Sebelumnya</button>
       <button class="nav-button" onclick="nextPhoto()">Berikutnya &raquo;</button>
     </div>
+  </div>
+
+  <div>
+      Pada awalnya kami hanyalah sekelompok santri yang 
+
   </div>
 
   <footer>
